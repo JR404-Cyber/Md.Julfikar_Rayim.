@@ -1,0 +1,213 @@
+/* Defolt Css */
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+
+.clearfix::after{
+  content:"" ;
+  display: block;
+  clear: both;
+}
+
+/* image */
+
+img{
+  max-width: 30;
+}
+.text-center{
+  text-align: center;
+}
+
+.text-right{
+  text-align: right;
+}
+
+.text-left{
+  text-align: left;
+}
+/* header Css */
+
+.fix-width{
+  width: 890px;
+  margin: auto;
+}
+.header{ background: #3498db}
+.header-left{
+  float: left;
+  width: 30%;
+}
+.header-right{
+  float: right;
+  width: 70%;
+}
+.header-left img{
+  width: 270px;
+  height: auto;
+  margin-top: 10px;
+}
+
+/* ul,li,a hover */
+
+.header-right ul{ 
+  text-align: right;
+}
+.header-right ul li{
+  display: inline-block;
+  margin-left: -4px
+}
+
+.header-right ul li a{
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  padding: 0 17px;
+  line-height: 50px;
+  border-right: 1px solid white;
+  transition:.4s
+}
+.header-right ul li a:hover{
+  background: #2980b9;
+}
+
+/* Banner */
+
+.banner{
+  background: url(IMG_20230902_234056.jpg) no-repeat center;
+  background-size: cover;
+  padding: 150px 0;
+
+}
+
+.r h2{ 
+  color: black;
+  display: inline-block;
+  padding: 17px 30px;
+  font-size: 23px;
+  margin-bottom: 200px;
+  
+  
+  
+}
+.r h1{
+    color: black;
+   max-width: px;
+   margin: auto;
+     padding: px px;
+     font-size: px;
+     border-radius: 5px;
+     margin-bottom: 10px;
+     margin-left: px
+}
+
+/* About */
+
+About{}
+.About h1{
+  font-size: 60px;
+}
+.About h2{
+  margin-top: 60px
+}
+
+.About h3{
+font-size: 40px;
+color: #c0392b;
+}
+.f{
+  max-width: 100pc;
+  font-size: 5px;
+  margin: auto;
+  
+  }
+     
+     
+ 
+ /* Services Section */
+ 
+.service{
+  margin-top: 60px;
+}
+.service-iteam{
+  width: 30.3%;
+  float: left;
+  border: 1px solid lightsteelblue;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-left: 1%;
+  margin-right: 1%;
+  background: black;
+  margin-bottom: 30px
+  
+}
+.service-iteam img{
+  display: block;
+  height: 70px;
+  width: 70px;
+  background: black;
+  color: white;
+  margin: auto;
+  font-size: 35px;
+  line-height: 60px;
+  border-radius: 20px 0 20px; 0
+  margin-bottom: px
+}
+.service-iteam h3{
+  margin: 40px 0;
+  font-size: 30px;
+  
+  color: white;
+}
+.service-iteam p{
+  color: white;
+}
+.y{
+ margin-bottom: 50px
+  
+}
+.l{
+  margin-bottom: 50px
+}
+
+/* TEAM */
+
+skil{
+  margin-top: 60px;
+}
+.skil-iteam{
+  width: 90.2%;
+  float: left;
+  border: 1px solid lightsteelblue;
+  padding: 5px;
+  box-sizing: border-box;
+  margin-left: 1%;
+  margin-right: 1%;
+  background: black;
+  margin-bottom: 30px;
+  text-align: center;
+  margin-left: 30px;
+  
+}
+.skil-iteam img{
+  display: block;
+  height: 60px;
+  width: 70px;
+  background: black;
+  color: white;
+  margin: auto;
+  font-size: 30px;
+  line-height: 50px;
+  border-radius: 10px 0 10px; 0
+  margin-bottom: px
+}
+.skil-iteam h3{
+  margin: 15px 0;
+  font-size: 15px;
+  
+  color: white;
+}
+.skil-iteam p{
+  color: white;
+
